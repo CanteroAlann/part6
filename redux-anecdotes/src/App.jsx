@@ -6,7 +6,9 @@ import Notification from './components/Notification'
 import { initializeAnecdotes } from './reducers/anecdoteReducer'
 
 
+
 const App = () => {
+
   useEffect(() => {
     initializeAnecdotes()
   }, [])
